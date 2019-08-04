@@ -5,14 +5,15 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.0.0",
+    "mocha": "^6.2.0",
     "mongoose": "^5.6.7"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
+    "@types/mocha": "^5.2.7",
     "@types/mongoose": "^5.5.11"
   },
   "scripts": {
-    "compile": "tsc",
-    "start": "node dist/test/connection.js"
+    "test": "mocha"
   }
 }
